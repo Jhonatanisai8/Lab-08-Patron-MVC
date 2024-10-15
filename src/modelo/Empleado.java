@@ -17,7 +17,7 @@ public class Empleado {
     }
 
     public Object[] registro() {
-        Object[] fila = {contador, codigo, nombres, añosExperiencia, cargo, sueldoBruto, montoAdicional,sueldoFinal};
+        Object[] fila = {contador, codigo, nombres, añosExperiencia, cargo, sueldoBruto, montoAdicional, sueldoFinal};
         return fila;
     }
 
