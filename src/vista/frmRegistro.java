@@ -13,7 +13,7 @@ public class frmRegistro extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         txtCodigo = new javax.swing.JTextField();
-        txtCodigo1 = new javax.swing.JTextField();
+        txtNombres = new javax.swing.JTextField();
         spnExperiencia = new javax.swing.JSpinner();
         cbxCargo = new javax.swing.JComboBox<>();
         btnRegistrar = new javax.swing.JButton();
@@ -30,11 +30,11 @@ public class frmRegistro extends javax.swing.JFrame {
         txtCodigo.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         txtCodigo.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Codigo: ", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 18))); // NOI18N
 
-        txtCodigo1.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
-        txtCodigo1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Nombres:", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 18))); // NOI18N
-        txtCodigo1.addActionListener(new java.awt.event.ActionListener() {
+        txtNombres.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
+        txtNombres.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Nombres:", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 18))); // NOI18N
+        txtNombres.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCodigo1ActionPerformed(evt);
+                txtNombresActionPerformed(evt);
             }
         });
 
@@ -60,7 +60,7 @@ public class frmRegistro extends javax.swing.JFrame {
                             .addContainerGap()
                             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addComponent(txtCodigo)
-                                .addComponent(txtCodigo1, javax.swing.GroupLayout.DEFAULT_SIZE, 386, Short.MAX_VALUE)))
+                                .addComponent(txtNombres, javax.swing.GroupLayout.DEFAULT_SIZE, 386, Short.MAX_VALUE)))
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()
                             .addGap(84, 84, 84)
                             .addComponent(spnExperiencia, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -77,7 +77,7 @@ public class frmRegistro extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(txtCodigo, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(txtCodigo1, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txtNombres, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(spnExperiencia, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26)
@@ -86,7 +86,7 @@ public class frmRegistro extends javax.swing.JFrame {
                 .addComponent(btnRegistrar, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnNuevo, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(50, Short.MAX_VALUE))
         );
 
         jPanel3.setBackground(new java.awt.Color(204, 255, 153));
@@ -157,9 +157,9 @@ public class frmRegistro extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtCodigo1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCodigo1ActionPerformed
+    private void txtNombresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombresActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCodigo1ActionPerformed
+    }//GEN-LAST:event_txtNombresActionPerformed
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -203,6 +203,6 @@ public class frmRegistro extends javax.swing.JFrame {
     public javax.swing.JSpinner spnExperiencia;
     public javax.swing.JTable tblDatos;
     public javax.swing.JTextField txtCodigo;
-    public javax.swing.JTextField txtCodigo1;
+    public javax.swing.JTextField txtNombres;
     // End of variables declaration//GEN-END:variables
 }

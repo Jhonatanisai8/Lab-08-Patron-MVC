@@ -6,8 +6,8 @@ import vista.frmRegistro;
 public class ProcesosEmpleado {
 
     public static void presentacion(frmRegistro registro) {
-        registro.setLocationRelativeTo(null);
         registro.setTitle("registro de datos de empleados".toUpperCase());
+        registro.setLocationRelativeTo(null);
 
         //para el tema de los cargos
         registro.cbxCargo.removeAllItems();
