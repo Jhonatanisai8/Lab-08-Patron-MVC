@@ -1,10 +1,16 @@
 package main;
 
 import modelo.Empleado;
+import vista.frmRegistro;
 
 public class NewMain {
 
     public static void main(String[] args) {
+        frmRegistro de = new frmRegistro();
+        de.setVisible(true);
+    }
+
+    public static void ejemplo() {
         System.out.println("HOLA MUNDO");
         Empleado empleado = new Empleado();
         empleado.setAñosExperiencia(5);
